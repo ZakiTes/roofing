@@ -50,3 +50,52 @@
 }
 
 
+.services-section {
+    background: url('./images/service1.jpeg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.services-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    position: relative;
+    margin-bottom: 40px; /* Adjust spacing between service items */
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.service-description {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%; /* Adjust width as needed */
+}
+
+.service-description h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.service-description p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
